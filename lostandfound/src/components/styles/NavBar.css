@@ -1,0 +1,12 @@
+.navbar {
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.yo {
+	color: hsla(189, 89%, 17%, 1);
+	background-color: hsla(189, 13%, 50%, 1);
+	/*background-color:hsla(197, 100%, 48%, 1)*/
+	/*hsla(196, 100%, 38%, 1)*/
+}

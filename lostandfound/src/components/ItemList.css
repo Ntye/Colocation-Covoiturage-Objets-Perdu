@@ -1,0 +1,36 @@
+/* ItemList.css */
+.item-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.item-list li {
+  flex: 1 1 200px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.item-list li:hover {
+  transform: translateY(-5px);
+}
+
+.item-list li img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.item-list li p {
+  padding: 0.5rem;
+  margin: 0;
+}
