@@ -1,0 +1,21 @@
+.active-link {
+
+}
+
+.nav-link {
+	transition: transform 0.3s ease;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	transform: translateY(-10px);
+}
+
+.nav-link-active {
+	color: hsla(197, 100%, 48%, 1);;
+	text-decoration: none;
+}
+
+.nav-link-active:hover {
+	transform: translateY(-5px);
+}

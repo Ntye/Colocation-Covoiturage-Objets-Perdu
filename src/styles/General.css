@@ -1,0 +1,31 @@
+.logo-title {
+	font-family: "Playwrite NZ", cursive;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-size: 40px;
+	font-style: normal;
+}
+
+.primary-color {
+	color: hsla(197, 100%, 48%, 1);
+}
+
+.secondary-color {
+	color: hsla(189, 89%, 17%, 1);
+}
+
+.tertiary-color {
+	color: hsla(189, 13%, 50%, 1);
+}
+
+.action-button {
+	color: hsla(197, 100%, 48%, 1);
+	border-color: hsla(197, 100%, 48%, 1);
+	background-color: #FFFFFF;
+}
+
+.action-button:hover {
+	color: #FFFFFF;
+	border-color: hsla(197, 100%, 48%, 1);
+	background-color: hsla(197, 100%, 48%, 1);
+}

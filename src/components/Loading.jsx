@@ -1,9 +1,9 @@
-import Spinner from 'react-bootstrap/Spinner';
+import React from 'react'
 
 function Loading () {
 	return (
-		<div className="d-flex align-middle justify-content-around">
-			<h2>Loading</h2> <br/> <Spinner animation="border" variant="secondary"/>
+		<div>
+			<h1>Loading ...</h1>
 		</div>
 	)
 }
